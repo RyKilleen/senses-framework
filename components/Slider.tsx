@@ -1,7 +1,7 @@
-import * as React from "react";
+import { FunctionComponent } from "react";
 import MUISlider, { SliderThumb } from "@mui/material/Slider";
 
-const CustomThumb = (props: unknown) => 
+const CustomThumb: FunctionComponent = (props: any) => 
 (
     <SliderThumb
       {...props}
